@@ -1,0 +1,18 @@
+{
+  "name": "agent-release-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Agent trace evaluation with explicit release gates, baseline comparisons, and inspectable failures.",
+  "author": "Ali Raza",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "build": "node build.mjs",
+    "evaluate": "node evaluate.mjs"
+  }
+}

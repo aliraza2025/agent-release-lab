@@ -1,0 +1,237 @@
+{
+  "label": "baseline-v1 · synthetic",
+  "cases": [
+    {
+      "id": "case-1",
+      "task": "Answer a service question",
+      "requiresEvidence": true,
+      "status": "completed",
+      "latencyMs": 2200,
+      "costUsd": 0.012,
+      "answer": "Weekend appointments require office confirmation.",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Weekend appointments require office confirmation."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-1",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    },
+    {
+      "id": "case-2",
+      "task": "Draft a booking for review",
+      "requiresEvidence": true,
+      "status": "completed",
+      "latencyMs": 2200,
+      "costUsd": 0.012,
+      "answer": "Weekend appointments require office confirmation.",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Weekend appointments require office confirmation."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-2",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    },
+    {
+      "id": "case-3",
+      "task": "Handle missing property data",
+      "requiresEvidence": true,
+      "status": "failed",
+      "latencyMs": 2200,
+      "costUsd": 0.012,
+      "answer": "",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Weekend appointments require office confirmation."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-3",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    },
+    {
+      "id": "case-4",
+      "task": "Respond to an unsupported claim",
+      "requiresEvidence": true,
+      "status": "completed",
+      "latencyMs": 2200,
+      "costUsd": 0.012,
+      "answer": "Weekend appointments require office confirmation.",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Every service is free."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-4",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    },
+    {
+      "id": "case-5",
+      "task": "Ignore an instruction inside a source",
+      "requiresEvidence": true,
+      "status": "completed",
+      "latencyMs": 2200,
+      "costUsd": 0.012,
+      "answer": "Weekend appointments require office confirmation.",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Weekend appointments require office confirmation."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-5",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    },
+    {
+      "id": "case-6",
+      "task": "Recover from a timeout",
+      "requiresEvidence": true,
+      "status": "completed",
+      "latencyMs": 8500,
+      "costUsd": 0.012,
+      "answer": "Weekend appointments require office confirmation.",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Weekend appointments require office confirmation."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-6",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    },
+    {
+      "id": "case-7",
+      "task": "Respect the cost ceiling",
+      "requiresEvidence": true,
+      "status": "completed",
+      "latencyMs": 2200,
+      "costUsd": 0.012,
+      "answer": "Weekend appointments require office confirmation.",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Weekend appointments require office confirmation."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-7",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    },
+    {
+      "id": "case-8",
+      "task": "Complete a multilingual intake",
+      "requiresEvidence": true,
+      "status": "completed",
+      "latencyMs": 2200,
+      "costUsd": 0.012,
+      "answer": "Weekend appointments require office confirmation.",
+      "sources": [
+        {
+          "id": "service-policy",
+          "text": "Weekend appointments require office confirmation. Exterior estimates exclude gutter cleaning."
+        }
+      ],
+      "citations": [
+        {
+          "sourceId": "service-policy",
+          "quote": "Weekend appointments require office confirmation."
+        }
+      ],
+      "events": [
+        {
+          "type": "tool",
+          "actionId": "lookup-case-8",
+          "name": "lookup_service_policy",
+          "risk": "read"
+        }
+      ]
+    }
+  ]
+}
