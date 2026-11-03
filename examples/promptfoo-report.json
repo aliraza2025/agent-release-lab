@@ -1,0 +1,981 @@
+{
+  "evalId": "eval-bwr-2026-11-03T21:30:33",
+  "results": {
+    "version": 3,
+    "timestamp": "2026-11-03T21:30:33.471Z",
+    "prompts": [
+      {
+        "id": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "raw": "{{caseId}}",
+        "label": "{{caseId}}",
+        "provider": "recorded-trace-gate",
+        "metrics": {
+          "score": 8,
+          "testPassCount": 8,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "testCacheHitCount": 0,
+          "assertPassCount": 8,
+          "assertFailCount": 0,
+          "totalLatencyMs": 49,
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 8,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "namedScoreWeights": {},
+          "cost": 0
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "pass"
+              }
+            }
+          ]
+        },
+        "id": "c501fc2c-7b18-4134-94d8-4715fe7fb177",
+        "latencyMs": 9,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-1",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "pass"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-1"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "pass"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-1"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "pass"
+              }
+            }
+          ]
+        },
+        "id": "33f702d0-9039-4e46-8f4d-81d007a3f41c",
+        "latencyMs": 6,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-2",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "pass"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-2"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "pass"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-2"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "pass"
+              }
+            }
+          ]
+        },
+        "id": "6df0ec46-3fde-4a3f-824b-9aab31326b76",
+        "latencyMs": 6,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-3",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "pass"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-3"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "pass"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-3"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "pass"
+              }
+            }
+          ]
+        },
+        "id": "8f272edc-42a6-4abe-9a57-ba90dffe4cf0",
+        "latencyMs": 5,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-4",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "pass"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-4"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "pass"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-4"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "hold"
+              }
+            }
+          ]
+        },
+        "id": "dbb97565-6238-4efb-bd79-83110c1a9af7",
+        "latencyMs": 5,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-5",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "hold"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-5"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "hold"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-5"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "pass"
+              }
+            }
+          ]
+        },
+        "id": "1c3eae8f-8d97-4aac-8522-f65f69f192aa",
+        "latencyMs": 5,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-6",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "pass"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-6"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "pass"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-6"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "hold"
+              }
+            }
+          ]
+        },
+        "id": "307ca513-252f-4ab8-8693-33d5dcd64eed",
+        "latencyMs": 4,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-7",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "hold"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-7"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "hold"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 6,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-7"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "pass"
+              }
+            }
+          ]
+        },
+        "id": "88ebd014-118c-4c34-9a80-f716b7c60a90",
+        "latencyMs": 9,
+        "namedScores": {},
+        "prompt": {
+          "raw": "case-8",
+          "label": "{{caseId}}",
+          "config": {}
+        },
+        "promptId": "f0da76d10ed092c8a8e21f26129c0fb440f6c949a994307347b9ec50cdc85d6a",
+        "promptIdx": 0,
+        "provider": {
+          "id": "recorded-trace-gate",
+          "label": ""
+        },
+        "response": {
+          "output": "pass"
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "caseId": "case-8"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "pass"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 7,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "caseId": "case-8"
+        },
+        "metadata": {
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      }
+    ],
+    "stats": {
+      "successes": 8,
+      "failures": 0,
+      "errors": 0,
+      "tokenUsage": {
+        "prompt": 0,
+        "completion": 0,
+        "cached": 0,
+        "total": 0,
+        "numRequests": 8,
+        "completionDetails": {
+          "reasoning": 0,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0
+        },
+        "assertions": {
+          "total": 0,
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "numRequests": 0,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          }
+        }
+      },
+      "durationMs": 111,
+      "evaluationDurationMs": 111
+    }
+  },
+  "config": {
+    "tags": {},
+    "description": "Deterministic release-gate integration over eight synthetic traces; not model accuracy.",
+    "prompts": [
+      "{{caseId}}"
+    ],
+    "providers": [
+      "file://./providers/gates.mjs"
+    ],
+    "tests": [
+      {
+        "vars": {
+          "caseId": "case-1"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "pass"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "caseId": "case-2"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "pass"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "caseId": "case-3"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "pass"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "caseId": "case-4"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "pass"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "caseId": "case-5"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "hold"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "caseId": "case-6"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "pass"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "caseId": "case-7"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "hold"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "caseId": "case-8"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "pass"
+          }
+        ]
+      }
+    ],
+    "env": {},
+    "outputPath": [
+      "examples/promptfoo-report.json"
+    ],
+    "extensions": [],
+    "metadata": {},
+    "evaluateOptions": {},
+    "basePath": "<workspace>/agent-release-lab"
+  },
+  "shareableUrl": null,
+  "metadata": {
+    "promptfooVersion": "0.125.1",
+    "nodeVersion": "v25.6.1",
+    "platform": "darwin",
+    "arch": "arm64",
+    "exportedAt": "2026-11-03T21:30:33.664Z",
+    "evaluationCreatedAt": "2026-11-03T21:30:33.471Z"
+  },
+  "vars": [
+    "caseId"
+  ],
+  "runtimeOptions": {
+    "eventSource": "cli",
+    "showProgressBar": false,
+    "repeat": 1,
+    "maxConcurrency": 4,
+    "cache": false
+  }
+}

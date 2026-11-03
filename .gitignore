@@ -5,3 +5,10 @@ node_modules/
 .DS_Store
 coverage/
 *.log
+
+.venv/
+.model-cache/
+.runtime/
+outputs/
+__pycache__/
+*.pyc

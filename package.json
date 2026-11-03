@@ -7,12 +7,17 @@
   "author": "Ali Raza",
   "license": "MIT",
   "engines": {
-    "node": ">=22"
+    "node": ">=22.22.0"
   },
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test",
     "build": "node build.mjs",
-    "evaluate": "node evaluate.mjs"
+    "evaluate": "node evaluate.mjs",
+    "eval:promptfoo": "promptfoo eval -c promptfooconfig.json --no-cache --no-progress-bar -o examples/promptfoo-report.json",
+    "eval:local-model": "promptfoo eval -c promptfoo-local-model.json --no-cache --no-progress-bar --max-concurrency 1 -o examples/local-model-evaluation.json"
+  },
+  "devDependencies": {
+    "promptfoo": "0.125.1"
   }
 }

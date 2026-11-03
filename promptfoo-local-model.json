@@ -1,0 +1,143 @@
+{
+  "description": "Actual local PEFT inference on 12 synthetic held-out requests. No paid API.",
+  "prompts": [
+    "{{request}}"
+  ],
+  "providers": [
+    "file://./providers/local-model.mjs"
+  ],
+  "tests": [
+    {
+      "vars": {
+        "request": "Could you provide an estimate for our exterior windows?"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "quote"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "What price would I pay for this job?"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "quote"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "I need to know the cost of the cleaning."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "quote"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "Send pricing for the whole property."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "quote"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "Could you book us in for Wednesday?"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "booking"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "I am ready to schedule the cleaning."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "booking"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "Is there an appointment I can reserve?"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "booking"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "Put our next visit on the calendar."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "booking"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "A human should look at this complaint."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "handoff"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "I would prefer to talk with the manager."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "handoff"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "Please transfer me to a real person."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "handoff"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "request": "I want a supervisor to review the refund."
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "handoff"
+        }
+      ]
+    }
+  ]
+}

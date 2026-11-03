@@ -29,7 +29,7 @@ Exit code `0` means all configured gates pass; `2` means hold; `1` means invalid
 
 ## Development
 
-Requires Node.js 22 or newer. No npm packages, API keys, or paid services are needed for the browser demo.
+Requires Node.js 22 or newer. No API keys or paid services are needed for the browser demo. Development integrations have their own listed dependencies.
 
 ```bash
 npm test
@@ -56,3 +56,13 @@ This is a deterministic log reviewer. It does not run agents, verify the authent
 - [Adnan Khan: agent systems](https://adnankhan.ai/work/agent-systems) and [Centurian](https://adnankhan.ai/work/centurian): references for communicating agent responsibility and inspection. No implementation copied.
 - [Promptfoo](https://github.com/promptfoo/promptfoo), MIT: a full evaluation toolkit reviewed as a foundation; this focused prototype implements its own small trace schema and rules without importing Promptfoo.
 - [LangGraph](https://github.com/langchain-ai/langgraph), MIT: a possible future source of agent traces; no LangGraph integration is currently claimed.
+
+## Local AI integration update
+
+An inspectable release-gate workbench with regression checks and Promptfoo integration, including a recorded evaluation of a locally adapted intake classifier.
+
+Verified: Promptfoo trace and local-model evaluations.
+
+Trace checks do not prove factual correctness or authenticate logs. The local model test uses a small synthetic held-out set; it does not establish customer performance.
+
+Run `npm ci`, then `npm run eval:promptfoo` for the deterministic trace integration. To reproduce actual classifier evaluation, clone and train `intake-model-lab`, set `INTAKE_MODEL_REPO` to that checkout and `PYTHON_BIN` to its environment, then run `npm run eval:local-model`. Reports in `examples/` retain both evaluations. Their synthetic test pass rates are not agent production success rates.

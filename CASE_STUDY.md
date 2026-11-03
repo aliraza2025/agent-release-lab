@@ -1,26 +1,21 @@
 # Agent Release Lab — product case study
 
-Stage: independent working prototype. No customer deployment or business impact is claimed.
+Stage: independent prototype.
 
-## Problem
+## Product contribution
 
-AI product teams can improve average performance while introducing a failure in a previously reliable scenario. A release review needs to preserve the individual evidence and the policy that produced its decision.
+An inspectable release-gate workbench with regression checks and Promptfoo integration, including a recorded evaluation of a locally adapted intake classifier.
 
-## Contribution
-
-Product framing, scope definition, workflow design, original implementation with AI assistance, deterministic validation, testing, documentation, and a public demo.
-
-## Decisions and tradeoffs
-
-1. Compare matching case IDs instead of mixing different suites. This makes regressions visible.
-2. Keep gates in deterministic code, including the order of approval and action events. A second language model is not used as a hidden judge.
-3. Include a deliberately held candidate so the demonstration exposes a meaningful failure.
-4. Export the policy together with the evaluated cases so a reviewer can reconstruct the decision.
+Original domain framing, workflow and interface design, implementation with AI assistance, input validation, tests, and source-linked documentation. Foundation: https://github.com/promptfoo/promptfoo.
 
 ## Verification
 
-7 automated tests cover regression gates, approval chronology and reuse, forged citations, invalid inputs, inclusive budgets, and HTTP behavior. The browser filter and JSON export were checked. Narrow-layout inspection was performed; no formal accessibility audit or production load test was conducted.
+Promptfoo trace and local-model evaluations. The repository includes the relevant fixtures, tests, and retained reports.
 
-## What would validate the product next
+## Tradeoffs and limits
 
-Connect an actual agent workflow, collect representative held-out traces, add signed event provenance, and compare decisions with independent human reviews. Publish measured false-pass and false-hold rates before making deployment claims.
+Trace checks do not prove factual correctness or authenticate logs. The local model test uses a small synthetic held-out set; it does not establish customer performance.
+
+## Next product test
+
+Build a representative, independently labeled evaluation set and compare false-pass and false-hold decisions with human reviews.

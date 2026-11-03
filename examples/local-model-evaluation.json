@@ -1,0 +1,1501 @@
+{
+  "evalId": "eval-b3W-2026-11-03T21:33:11",
+  "results": {
+    "version": 3,
+    "timestamp": "2026-11-03T21:33:11.889Z",
+    "prompts": [
+      {
+        "id": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "raw": "{{request}}",
+        "label": "{{request}}",
+        "provider": "local-peft-intake",
+        "metrics": {
+          "score": 12,
+          "testPassCount": 12,
+          "testFailCount": 0,
+          "testErrorCount": 0,
+          "testCacheHitCount": 0,
+          "assertPassCount": 12,
+          "assertFailCount": 0,
+          "totalLatencyMs": 68821,
+          "tokenUsage": {
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "total": 0,
+            "numRequests": 12,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            },
+            "assertions": {
+              "total": 0,
+              "prompt": 0,
+              "completion": 0,
+              "cached": 0,
+              "numRequests": 0,
+              "completionDetails": {
+                "reasoning": 0,
+                "acceptedPrediction": 0,
+                "rejectedPrediction": 0,
+                "cacheReadInputTokens": 0,
+                "cacheCreationInputTokens": 0
+              }
+            }
+          },
+          "namedScores": {},
+          "namedScoresCount": {},
+          "namedScoreWeights": {},
+          "cost": 0
+        }
+      }
+    ],
+    "results": [
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "quote"
+              }
+            }
+          ]
+        },
+        "id": "744779c9-b9d7-4bde-afbb-9e39f4afa320",
+        "latencyMs": 5810,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Could you provide an estimate for our exterior windows?",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "quote",
+          "metadata": {
+            "latencyMs": 5805.408125,
+            "modelScore": 0.9959889054298401,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "Could you provide an estimate for our exterior windows?"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "quote"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 0,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "Could you provide an estimate for our exterior windows?"
+        },
+        "metadata": {
+          "latencyMs": 5805.408125,
+          "modelScore": 0.9959889054298401,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "quote"
+              }
+            }
+          ]
+        },
+        "id": "18c9e6ee-32c1-4ab4-b94a-231b114325d6",
+        "latencyMs": 5320,
+        "namedScores": {},
+        "prompt": {
+          "raw": "What price would I pay for this job?",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "quote",
+          "metadata": {
+            "latencyMs": 5316.591582999999,
+            "modelScore": 0.995909571647644,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "What price would I pay for this job?"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "quote"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 1,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "What price would I pay for this job?"
+        },
+        "metadata": {
+          "latencyMs": 5316.591582999999,
+          "modelScore": 0.995909571647644,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "quote"
+              }
+            }
+          ]
+        },
+        "id": "0d98c914-3862-4602-a909-d632f88654f3",
+        "latencyMs": 5269,
+        "namedScores": {},
+        "prompt": {
+          "raw": "I need to know the cost of the cleaning.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "quote",
+          "metadata": {
+            "latencyMs": 5267.149625000002,
+            "modelScore": 0.6432793140411377,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "I need to know the cost of the cleaning."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "quote"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 2,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "I need to know the cost of the cleaning."
+        },
+        "metadata": {
+          "latencyMs": 5267.149625000002,
+          "modelScore": 0.6432793140411377,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "quote"
+              }
+            }
+          ]
+        },
+        "id": "2d7d8369-4544-49a1-a7e8-6e6c3ab97dd2",
+        "latencyMs": 4577,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Send pricing for the whole property.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "quote",
+          "metadata": {
+            "latencyMs": 4572.901583000003,
+            "modelScore": 0.9952986836433411,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "Send pricing for the whole property."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "quote"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 3,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "Send pricing for the whole property."
+        },
+        "metadata": {
+          "latencyMs": 4572.901583000003,
+          "modelScore": 0.9952986836433411,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "booking"
+              }
+            }
+          ]
+        },
+        "id": "cab9cf5a-829c-4df9-b5bc-30e717736ef5",
+        "latencyMs": 6996,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Could you book us in for Wednesday?",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "booking",
+          "metadata": {
+            "latencyMs": 6977.653417000001,
+            "modelScore": 0.9957064986228943,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "Could you book us in for Wednesday?"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "booking"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 4,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "Could you book us in for Wednesday?"
+        },
+        "metadata": {
+          "latencyMs": 6977.653417000001,
+          "modelScore": 0.9957064986228943,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "booking"
+              }
+            }
+          ]
+        },
+        "id": "a2a52509-e00f-4d29-be05-5f8f39d02002",
+        "latencyMs": 8807,
+        "namedScores": {},
+        "prompt": {
+          "raw": "I am ready to schedule the cleaning.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "booking",
+          "metadata": {
+            "latencyMs": 8800.888249999996,
+            "modelScore": 0.8659305572509766,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "I am ready to schedule the cleaning."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "booking"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 5,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "I am ready to schedule the cleaning."
+        },
+        "metadata": {
+          "latencyMs": 8800.888249999996,
+          "modelScore": 0.8659305572509766,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "booking"
+              }
+            }
+          ]
+        },
+        "id": "df8b03e5-f268-4c69-b45c-fe0dc094eab7",
+        "latencyMs": 7601,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Is there an appointment I can reserve?",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "booking",
+          "metadata": {
+            "latencyMs": 7596.6788339999985,
+            "modelScore": 0.9957242012023926,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "Is there an appointment I can reserve?"
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "booking"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 6,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "Is there an appointment I can reserve?"
+        },
+        "metadata": {
+          "latencyMs": 7596.6788339999985,
+          "modelScore": 0.9957242012023926,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "booking"
+              }
+            }
+          ]
+        },
+        "id": "b50e0cfb-3054-4dc0-b550-3bb11a6c416a",
+        "latencyMs": 6274,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Put our next visit on the calendar.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "booking",
+          "metadata": {
+            "latencyMs": 6270.146083,
+            "modelScore": 0.9925409555435181,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "Put our next visit on the calendar."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "booking"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 7,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "Put our next visit on the calendar."
+        },
+        "metadata": {
+          "latencyMs": 6270.146083,
+          "modelScore": 0.9925409555435181,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "handoff"
+              }
+            }
+          ]
+        },
+        "id": "cd20056d-6322-4048-a18e-55b3c4b59c5e",
+        "latencyMs": 4798,
+        "namedScores": {},
+        "prompt": {
+          "raw": "A human should look at this complaint.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "handoff",
+          "metadata": {
+            "latencyMs": 4795.137458999998,
+            "modelScore": 0.9910865426063538,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "A human should look at this complaint."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "handoff"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 8,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "A human should look at this complaint."
+        },
+        "metadata": {
+          "latencyMs": 4795.137458999998,
+          "modelScore": 0.9910865426063538,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "handoff"
+              }
+            }
+          ]
+        },
+        "id": "fecd58cb-c4df-4d41-8ff8-eb3a6175ba68",
+        "latencyMs": 4614,
+        "namedScores": {},
+        "prompt": {
+          "raw": "I would prefer to talk with the manager.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "handoff",
+          "metadata": {
+            "latencyMs": 4610.941791000005,
+            "modelScore": 0.9904730916023254,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "I would prefer to talk with the manager."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "handoff"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 9,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "I would prefer to talk with the manager."
+        },
+        "metadata": {
+          "latencyMs": 4610.941791000005,
+          "modelScore": 0.9904730916023254,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "handoff"
+              }
+            }
+          ]
+        },
+        "id": "e0771028-ee7d-489f-848a-67d248f1abda",
+        "latencyMs": 4731,
+        "namedScores": {},
+        "prompt": {
+          "raw": "Please transfer me to a real person.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "handoff",
+          "metadata": {
+            "latencyMs": 4727.5744579999955,
+            "modelScore": 0.9957618117332458,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "Please transfer me to a real person."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "handoff"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 10,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "Please transfer me to a real person."
+        },
+        "metadata": {
+          "latencyMs": 4727.5744579999955,
+          "modelScore": 0.9957618117332458,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      },
+      {
+        "cost": 0,
+        "gradingResult": {
+          "pass": true,
+          "score": 1,
+          "reason": "All assertions passed",
+          "namedScores": {},
+          "tokensUsed": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0
+          },
+          "componentResults": [
+            {
+              "pass": true,
+              "score": 1,
+              "reason": "Assertion passed",
+              "assertion": {
+                "type": "equals",
+                "value": "handoff"
+              }
+            }
+          ]
+        },
+        "id": "b1aa2191-c867-4e82-9edf-fe3ca7571f41",
+        "latencyMs": 4024,
+        "namedScores": {},
+        "prompt": {
+          "raw": "I want a supervisor to review the refund.",
+          "label": "{{request}}",
+          "config": {}
+        },
+        "promptId": "22eb8f0afffc11b6efb148227297c1ad363b71d58431ce186abbdbb5a91b5364",
+        "promptIdx": 0,
+        "provider": {
+          "id": "local-peft-intake",
+          "label": ""
+        },
+        "response": {
+          "output": "handoff",
+          "metadata": {
+            "latencyMs": 4020.941957999996,
+            "modelScore": 0.9947813153266907,
+            "paidApiCalls": 0
+          }
+        },
+        "score": 1,
+        "success": true,
+        "testCase": {
+          "vars": {
+            "request": "I want a supervisor to review the refund."
+          },
+          "assert": [
+            {
+              "type": "equals",
+              "value": "handoff"
+            }
+          ],
+          "options": {},
+          "metadata": {}
+        },
+        "testIdx": 11,
+        "tokenUsage": {
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "total": 0,
+          "numRequests": 1,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          },
+          "assertions": {
+            "total": 0,
+            "prompt": 0,
+            "completion": 0,
+            "cached": 0,
+            "numRequests": 0,
+            "completionDetails": {
+              "reasoning": 0,
+              "acceptedPrediction": 0,
+              "rejectedPrediction": 0,
+              "cacheReadInputTokens": 0,
+              "cacheCreationInputTokens": 0
+            }
+          }
+        },
+        "vars": {
+          "request": "I want a supervisor to review the refund."
+        },
+        "metadata": {
+          "latencyMs": 4020.941957999996,
+          "modelScore": 0.9947813153266907,
+          "paidApiCalls": 0,
+          "_promptfooFileMetadata": {}
+        },
+        "failureReason": 0
+      }
+    ],
+    "stats": {
+      "successes": 12,
+      "failures": 0,
+      "errors": 0,
+      "tokenUsage": {
+        "prompt": 0,
+        "completion": 0,
+        "cached": 0,
+        "total": 0,
+        "numRequests": 12,
+        "completionDetails": {
+          "reasoning": 0,
+          "acceptedPrediction": 0,
+          "rejectedPrediction": 0,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 0
+        },
+        "assertions": {
+          "total": 0,
+          "prompt": 0,
+          "completion": 0,
+          "cached": 0,
+          "numRequests": 0,
+          "completionDetails": {
+            "reasoning": 0,
+            "acceptedPrediction": 0,
+            "rejectedPrediction": 0,
+            "cacheReadInputTokens": 0,
+            "cacheCreationInputTokens": 0
+          }
+        }
+      },
+      "durationMs": 68985,
+      "evaluationDurationMs": 68985
+    }
+  },
+  "config": {
+    "tags": {},
+    "description": "Actual local PEFT inference on 12 synthetic held-out requests. No paid API.",
+    "prompts": [
+      "{{request}}"
+    ],
+    "providers": [
+      "file://./providers/local-model.mjs"
+    ],
+    "tests": [
+      {
+        "vars": {
+          "request": "Could you provide an estimate for our exterior windows?"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "quote"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "What price would I pay for this job?"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "quote"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "I need to know the cost of the cleaning."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "quote"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "Send pricing for the whole property."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "quote"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "Could you book us in for Wednesday?"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "booking"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "I am ready to schedule the cleaning."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "booking"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "Is there an appointment I can reserve?"
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "booking"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "Put our next visit on the calendar."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "booking"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "A human should look at this complaint."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "handoff"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "I would prefer to talk with the manager."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "handoff"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "Please transfer me to a real person."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "handoff"
+          }
+        ]
+      },
+      {
+        "vars": {
+          "request": "I want a supervisor to review the refund."
+        },
+        "assert": [
+          {
+            "type": "equals",
+            "value": "handoff"
+          }
+        ]
+      }
+    ],
+    "env": {},
+    "outputPath": [
+      "examples/local-model-evaluation.json"
+    ],
+    "extensions": [],
+    "metadata": {},
+    "evaluateOptions": {},
+    "basePath": "<workspace>/agent-release-lab"
+  },
+  "shareableUrl": null,
+  "metadata": {
+    "promptfooVersion": "0.125.1",
+    "nodeVersion": "v25.6.1",
+    "platform": "darwin",
+    "arch": "arm64",
+    "exportedAt": "2026-11-03T21:34:20.950Z",
+    "evaluationCreatedAt": "2026-11-03T21:33:11.889Z"
+  },
+  "vars": [
+    "request"
+  ],
+  "runtimeOptions": {
+    "eventSource": "cli",
+    "showProgressBar": false,
+    "repeat": 1,
+    "maxConcurrency": 1,
+    "cache": false
+  }
+}

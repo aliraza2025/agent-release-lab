@@ -1,17 +1,19 @@
 # Portfolio card
 
-Title: Agent Release Lab
+**Agent Release Lab**
 
-Category: AI evaluation · Agent traces · Product judgment · JavaScript
+Category: AI evaluation
 
 Stage: Independent prototype
 
 Role: Product design and development, with AI-assisted implementation
 
-Built an agent evaluation workbench that compares baseline and candidate traces against explicit approval, citation, latency, cost, and regression gates. Designed inspectable failure views and portable decision reports so a release decision can be reviewed case by case.
+An inspectable release-gate workbench with regression checks and Promptfoo integration, including a recorded evaluation of a locally adapted intake classifier.
+
+Verification: Promptfoo trace and local-model evaluations.
 
 Repository: https://github.com/aliraza2025/agent-release-lab
 
-Interactive demo: https://aliraza2025.github.io/agent-release-lab/
+Demo: https://aliraza2025.github.io/agent-release-lab/
 
-Use the prototype stage label. Report customer adoption, user research, live model performance, or business impact only after collecting that evidence.
+Scope qualification: Trace checks do not prove factual correctness or authenticate logs. The local model test uses a small synthetic held-out set; it does not establish customer performance.

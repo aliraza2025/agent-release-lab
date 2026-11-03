@@ -1,0 +1,99 @@
+{
+  "description": "Deterministic release-gate integration over eight synthetic traces; not model accuracy.",
+  "prompts": [
+    "{{caseId}}"
+  ],
+  "providers": [
+    "file://./providers/gates.mjs"
+  ],
+  "tests": [
+    {
+      "vars": {
+        "caseId": "case-1"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "pass"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "caseId": "case-2"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "pass"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "caseId": "case-3"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "pass"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "caseId": "case-4"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "pass"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "caseId": "case-5"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "hold"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "caseId": "case-6"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "pass"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "caseId": "case-7"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "hold"
+        }
+      ]
+    },
+    {
+      "vars": {
+        "caseId": "case-8"
+      },
+      "assert": [
+        {
+          "type": "equals",
+          "value": "pass"
+        }
+      ]
+    }
+  ]
+}
