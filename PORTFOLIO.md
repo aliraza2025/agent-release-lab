@@ -1,6 +1,8 @@
 # Portfolio card
 
-**Agent Release Lab**
+**Parakh**
+
+AI evaluation and release gates · Raza Labs by Ali Raza
 
 Category: AI evaluation
 
@@ -17,3 +19,5 @@ Repository: https://github.com/aliraza2025/agent-release-lab
 Demo: https://aliraza2025.github.io/agent-release-lab/
 
 Scope qualification: Trace checks do not prove factual correctness or authenticate logs. The local model test uses a small synthetic held-out set; it does not establish customer performance.
+
+Cover artwork: https://aliraza2025.github.io/agent-release-lab/project-cover.webp

@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import * as core from './public/core.js';
 const publicRoot = new URL('./public/', import.meta.url);
-const files = { '/': ['index.html', 'text/html'], '/index.html': ['index.html', 'text/html'], '/style.css': ['style.css', 'text/css'], '/app.js': ['app.js', 'text/javascript'], '/core.js': ['core.js', 'text/javascript'], '/shared.js': ['shared.js', 'text/javascript'] };
+const files = { '/branding.css': ['branding.css', 'text/css'], '/project-cover.webp': ['project-cover.webp', 'image/webp'], '/': ['index.html', 'text/html'], '/index.html': ['index.html', 'text/html'], '/style.css': ['style.css', 'text/css'], '/app.js': ['app.js', 'text/javascript'], '/core.js': ['core.js', 'text/javascript'], '/shared.js': ['shared.js', 'text/javascript'] };
 const MAX_BODY = 128000;
 function send(res, status, body) { res.writeHead(status, { 'Content-Type': 'application/json; charset=utf-8' }); res.end(JSON.stringify(body)); }
 async function jsonBody(req) {

@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "Agent trace evaluation with explicit release gates, baseline comparisons, and inspectable failures.",
+  "description": "Parakh \u2014 AI evaluation and release gates. An independent Raza Labs prototype by Ali Raza.",
   "author": "Ali Raza",
   "license": "MIT",
   "engines": {

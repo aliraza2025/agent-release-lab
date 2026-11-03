@@ -1,4 +1,4 @@
-# Agent Release Lab — product case study
+# Parakh — product case study
 
 Stage: independent prototype.
 

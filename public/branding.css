@@ -1,0 +1,13 @@
+/* Raza Labs: Ali Raza's night-studio portfolio palette. */
+body.raza-labs{--bg:#0b0720;--panel:#160e30;--ink:#f6f1ff;--muted:#beb4d1;--line:#392650;--accent:#ff77b5;--onaccent:#250b1d;--soft:#281638;--danger:#ffb49d;--dangerbg:#381e30;--success:#a7e3cc;background:radial-gradient(ellipse at 80% 5%,#6c195e25,transparent 45%),#0b0720}
+.raza-labs .brand-hero{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:32px;padding:20px 0 32px;align-items:center}
+.brand-hero h1{font-size:clamp(3.2rem,7vw,6.5rem);margin-bottom:18px;letter-spacing:-.06em}
+.brand-hero .lede{font-size:clamp(1rem,1.5vw,1.3rem);max-width:28ch;line-height:1.5;color:var(--ink)}
+.brand-caption{font-size:.76rem;color:var(--muted);margin-top:20px}
+.brand-art{margin:0;min-width:0;border:1px solid #ff2d8d25;border-radius:20px;overflow:hidden;background:#120a2b;box-shadow:0 20px 70px #0004}
+.brand-art img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:contain}
+.brand-art figcaption{font-size:.64rem;color:var(--muted);padding:8px 15px;border-top:1px solid #ff2d8d20}
+.raza-labs .mark{color:#ff77b5;background:#ff2d8d12;border-color:#ff2d8d40}
+.raza-labs .eyebrow{color:#ff9ac8}.raza-labs .topbar{border-color:#ff2d8d25}
+.raza-labs .panel{box-shadow:0 8px 24px #0002}
+@media(max-width:700px){.raza-labs .brand-hero{grid-template-columns:1fr;gap:22px;padding-top:12px}.brand-hero h1{margin:8px 0 12px;font-size:3.8rem}.brand-caption{margin-top:12px}.brand-art{max-width:560px}.brand-art figcaption{font-size:.6rem}}

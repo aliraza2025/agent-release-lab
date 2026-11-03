@@ -1,4 +1,8 @@
-# Agent Release Lab
+# Parakh
+
+**AI evaluation and release gates · Raza Labs by Ali Raza**
+
+![Concept artwork for Parakh](public/project-cover.webp)
 
 An agent trace evaluation workbench that makes a release decision inspectable. Compare the same scenario suite across a baseline and a candidate, inspect exact failures, and export the decision with its policy.
 
@@ -66,3 +70,7 @@ Verified: Promptfoo trace and local-model evaluations.
 Trace checks do not prove factual correctness or authenticate logs. The local model test uses a small synthetic held-out set; it does not establish customer performance.
 
 Run `npm ci`, then `npm run eval:promptfoo` for the deterministic trace integration. To reproduce actual classifier evaluation, clone and train `intake-model-lab`, set `INTAKE_MODEL_REPO` to that checkout and `PYTHON_BIN` to its environment, then run `npm run eval:local-model`. Reports in `examples/` retain both evaluations. Their synthetic test pass rates are not agent production success rates.
+
+## Visual identity
+
+Original AI-generated concept artwork for the Raza Labs collection, matched to Ali Raza’s midnight-purple and pink portfolio studio. The cover is illustrative artwork; the interactive demo shows the actual prototype. Generation prompt: [ARTWORK.md](ARTWORK.md).
