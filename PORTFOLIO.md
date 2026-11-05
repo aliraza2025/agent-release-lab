@@ -21,3 +21,5 @@ Demo: https://aliraza2025.github.io/agent-release-lab/
 Scope qualification: Trace checks do not prove factual correctness or authenticate logs. The local model test uses a small synthetic held-out set; it does not establish customer performance.
 
 Cover artwork: https://aliraza2025.github.io/agent-release-lab/project-cover.webp
+
+Additional verified integration: Actual local Opik equality/JSON metrics with positive and negative controls. No model judge or full Opik backend.

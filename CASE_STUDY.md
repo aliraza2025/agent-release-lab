@@ -19,3 +19,7 @@ Trace checks do not prove factual correctness or authenticate logs. The local mo
 ## Next product test
 
 Build a representative, independently labeled evaluation set and compare false-pass and false-hold decisions with human reviews.
+
+## Additional metric integration
+
+Actual offline Opik Equals and IsJson metrics make format-versus-content distinctions inspectable. Four negative/positive fixtures are available separately from the trace-release policy. The report is local JSON, not an export from an Opik backend.

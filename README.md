@@ -74,3 +74,9 @@ Run `npm ci`, then `npm run eval:promptfoo` for the deterministic trace integrat
 ## Visual identity
 
 Original AI-generated concept artwork for the Raza Labs collection, matched to Ali Raza’s midnight-purple and pink portfolio studio. The cover is illustrative artwork; the interactive demo shows the actual prototype. Generation prompt: [ARTWORK.md](ARTWORK.md).
+
+## Local Opik metrics
+
+The separate Opik panel runs actual Equals and IsJson metrics using opik 2.2.142. Install requirements-opik.txt in an isolated Python environment, then launch npm start with RAZA_PYTHON set to that environment’s Python executable. No model judge or API key is used; Opik analytics and tracing are disabled.
+
+The public demo offers a recorded fixture run. Its positive and negative controls include correct JSON, a wrong intent, malformed JSON and a spacing-only difference. Exact string equality and JSON validity are different from semantic correctness or factual support. See examples/opik-report.json. No Opik backend dashboard was deployed.

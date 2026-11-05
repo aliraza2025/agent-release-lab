@@ -1,0 +1,37 @@
+{
+  "engine": "Opik 2.2.142",
+  "mode": "Actual local deterministic metrics",
+  "cases": [
+    {
+      "id": "correct-json",
+      "output": "{\"intent\":\"quote\"}",
+      "reference": "{\"intent\":\"quote\"}",
+      "exactMatch": 1.0,
+      "validJson": 1.0
+    },
+    {
+      "id": "wrong-intent",
+      "output": "{\"intent\":\"cancel\"}",
+      "reference": "{\"intent\":\"quote\"}",
+      "exactMatch": 0.0,
+      "validJson": 1.0
+    },
+    {
+      "id": "invalid-json",
+      "output": "quote please",
+      "reference": "{\"intent\":\"quote\"}",
+      "exactMatch": 0.0,
+      "validJson": 0.0
+    },
+    {
+      "id": "spacing-control",
+      "output": "{ \"intent\": \"quote\" }",
+      "reference": "{\"intent\":\"quote\"}",
+      "exactMatch": 0.0,
+      "validJson": 1.0
+    }
+  ],
+  "exactMatchRate": 0.25,
+  "validJsonRate": 0.75,
+  "limits": "Format and exact-match checks only. These scores do not establish factual correctness, groundedness or customer performance. No model judge or full Opik backend was invoked."
+}

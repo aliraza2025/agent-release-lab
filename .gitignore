@@ -12,3 +12,6 @@ coverage/
 outputs/
 __pycache__/
 *.pyc
+
+.cache/
+__pycache__/
